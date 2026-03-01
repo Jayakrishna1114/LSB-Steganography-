@@ -87,13 +87,14 @@ otherwise use Makefile, make cmd
 
 ### Encoding
 
-./stego -e beautiful.bmp secret.txt steged_img.bmp
-(or)
-./a.out -e beautiful.bmp secret.txt output.bmp
+-./stego -e beautiful.bmp secret.txt steged_img.bmp
+-(or)
+-./a.out -e beautiful.bmp secret.txt output.bmp
 
 
 ### Decoding
 
-./stego -d steged_img.bmp decoded.txt
-(or)
-./a.out -d steged_img.bmp decode.txt
+-./stego -d steged_img.bmp decoded.txt
+-(or)
+
+-./a.out -d steged_img.bmp decode.txt
