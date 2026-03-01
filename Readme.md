@@ -94,8 +94,9 @@ To implement LSB Steganography technique in C language to hide and retrieve secr
 
 ### Decoding
 
--./stego -d steged_img.bmp decoded.txt
--(or)
+- ./stego -d steged_img.bmp decoded.txt
+- (or)
 
--./a.out -d steged_img.bmp decode.txt
+- ./a.out -d steged_img.bmp decode.txt
+
 
