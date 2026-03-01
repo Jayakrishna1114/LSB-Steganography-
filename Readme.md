@@ -62,15 +62,15 @@ To implement LSB Steganography technique in C language to hide and retrieve secr
 
 ## COMPILATION
 
-gcc -c *.c
-gcc *.o -o stego 
-otherwise use Makefile, make cmd
+- gcc -c *.c
+- gcc *.o -o stego 
+- otherwise use Makefile, make cmd
 
 
 ## RUN COMMAND
 
-./stego -e beautiful.bmp secret.txt steged_img.bmp
-./stego -d steged_img.bmp decoded.txt
+- ./stego -e beautiful.bmp secret.txt steged_img.bmp
+- ./stego -d steged_img.bmp decoded.txt
 
 
 ## CONCEPTS USED
@@ -87,9 +87,9 @@ otherwise use Makefile, make cmd
 
 ### Encoding
 
--./stego -e beautiful.bmp secret.txt steged_img.bmp
--(or)
--./a.out -e beautiful.bmp secret.txt output.bmp
+- ./stego -e beautiful.bmp secret.txt steged_img.bmp
+- (or)
+- ./a.out -e beautiful.bmp secret.txt output.bmp
 
 
 ### Decoding
@@ -98,3 +98,4 @@ otherwise use Makefile, make cmd
 -(or)
 
 -./a.out -d steged_img.bmp decode.txt
+
